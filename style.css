@@ -6,10 +6,41 @@ h1 {
   font-size: 128px;
   line-height: 150%;
   font-weight: normal;
-  line-height: 192px; /* 150% */
+  line-height: 150%;
   letter-spacing: 15px;
   margin: 0;
   padding: 0;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #ae0000;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 150%;
+  width: 636px;
+  border-bottom: 3px solid #ae0000;
+  margin-bottom: 16px;
+}
+ul {
+  /* margin: 0; */
+  padding: 0;
+}
+li {
+  list-style: none;
+  /* margin: 0; */
+  /* padding: 0; */
+  font-size: 24px;
+  margin-bottom: 8px;
+  width: 636px;
+}
+section {
+  margin-bottom: 40px;
+}
+footer {
+  background-color: #000000;
+  margin: 0 -312px;
+  /* width: 100%; */
 }
 .h2RESUME {
   display: flex;
@@ -33,4 +64,23 @@ h1 {
   margin-right: 312px;
   font-size: 32px;
   line-height: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.detail {
+  margin: 80px 0 160px 0;
+}
+.fs-3 {
+  font-size: 20px;
+  color: #949494;
+  font-style: italic;
+  line-height: 150%;
+  margin: 0;
+}
+.footerIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0;
+  gap: 40px;
 }
